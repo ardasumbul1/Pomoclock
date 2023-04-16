@@ -1,0 +1,145 @@
+body{
+    background-color: #D2DAFF;
+
+}
+#head{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 40px;
+    margin-left: 33%;
+    margin-right: 33%;
+    margin-bottom: -40px;
+    height: 20px;
+    width: 33%;
+
+}
+
+#heading{
+    font-size: 40px;
+    text-align: center;
+    color: white;
+}
+
+h1 {
+    display: inline-block;
+    font-family: "ArialRounded",'Segoe UI Symbol';
+    color: rgb(97, 96, 96);
+    text-align: center;
+    font-size: 80px;
+}
+
+
+.btn-container {
+    margin-top: 100px;
+    text-align: center ;
+}
+.right-triangle{
+    
+    width: 0px;
+    height: 0px;
+    border: 40px solid black;
+    border-top-color: transparent;
+    border-right-color: transparent;
+    border-bottom-color: transparent;
+    border-left-color: #B1B2FF;
+    margin-left: 40px;
+
+}
+
+.left-triangle{
+
+    width: 0px;
+    height: 0px;
+    border: 40px solid black;
+    border-top-color: transparent;
+    border-right-color: #B1B2FF;
+    border-bottom-color: transparent;
+    border-left-color: transparent;
+    margin-right: 40px;
+    
+}
+
+button{
+    font-weight:500;
+    font-size: 1.3vw;
+    @media screen and ( min-width: 10px ) {
+      font-size: 1vw;
+    }
+    
+    color:white;
+    font-weight: 100;
+    letter-spacing: -0.025em;
+    background-color: var(--clr);
+    background-image:   
+      linear-gradient(180deg, 
+        var(--clr2) var(--gradgap), 
+        transparent calc(100% - var(--gradgap))
+      );
+    background-repeat: no-repeat;
+    background-position: center var(--gradoffset);
+    background-size: 100% 200%;
+    padding: 0.8em 1.5em;
+    border-radius: 2em;
+    border: 3px solid white;
+    
+    box-shadow: 
+      0 -0.5em 0.5em transparent,
+      0 0.5em 0.5em transparent,
+      0 0.25em 0.3em -0.2em hsla(var(--hue), var(--sat), 50%, 0.46), 
+      0 0.25em 0.75em hsla(var(--hue), calc(var(--sat) - 10%), 40%, 0.3);
+  
+    position: relative;
+    transition: all 0.5s ease;
+    outline: none;
+  
+  }
+  
+  button:hover {
+    background: #ECF2FF;
+    background-image: -webkit-linear-gradient(top, #ECF2FF, #ECF2FF);
+    background-image: -moz-linear-gradient(top, #ECF2FF, #ECF2FF);
+    background-image: -ms-linear-gradient(top, #ECF2FF, #ECF2FF);
+    background-image: -o-linear-gradient(top, #ECF2FF, #ECF2FF);
+    background-image: linear-gradient(to bottom, #ECF2FF, #ECF2FF);
+    text-decoration: none;
+  }
+
+#start{
+    color: white;
+    background:  #B1B2FF;
+}
+
+.time-container{
+    background-color: #EEF2FF;
+    display: flex;
+    align-items: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    align-self: center;
+    width: 40%;
+    height: 400px;
+    text-align: center;
+    border-radius: 25px;
+    border: 1px solid white;
+}
+
+.inner-container{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.triangles{
+    display: flex;
+    align-items: center;
+}
+
+h2 {
+    color:rgb(97, 96, 96);
+    font-size:30px;
+    font-family: 'ArialRounded';
+}
